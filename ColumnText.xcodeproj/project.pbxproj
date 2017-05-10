@@ -15,6 +15,8 @@
 		2F1FF9121EB8297400DD85B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1FF9101EB8297400DD85B9 /* LaunchScreen.storyboard */; };
 		2F1FF91D1EB8297400DD85B9 /* ColumnTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1FF91C1EB8297400DD85B9 /* ColumnTextTests.m */; };
 		2F1FF9281EB8297400DD85B9 /* ColumnTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1FF9271EB8297400DD85B9 /* ColumnTextUITests.m */; };
+		2F1FF93A1EB8305E00DD85B9 /* ColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1FF9391EB8305E00DD85B9 /* ColumnView.m */; };
+		2F1FF93D1EB8350600DD85B9 /* ColumnCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1FF93C1EB8350600DD85B9 /* ColumnCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2F1FF9231EB8297400DD85B9 /* ColumnTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColumnTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F1FF9271EB8297400DD85B9 /* ColumnTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColumnTextUITests.m; sourceTree = "<group>"; };
 		2F1FF9291EB8297400DD85B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F1FF9381EB8305E00DD85B9 /* ColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnView.h; sourceTree = "<group>"; };
+		2F1FF9391EB8305E00DD85B9 /* ColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnView.m; sourceTree = "<group>"; };
+		2F1FF93B1EB8350600DD85B9 /* ColumnCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnCell.h; sourceTree = "<group>"; };
+		2F1FF93C1EB8350600DD85B9 /* ColumnCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				2F1FF9061EB8297400DD85B9 /* AppDelegate.m */,
 				2F1FF9081EB8297400DD85B9 /* ViewController.h */,
 				2F1FF9091EB8297400DD85B9 /* ViewController.m */,
+				2F1FF9381EB8305E00DD85B9 /* ColumnView.h */,
+				2F1FF9391EB8305E00DD85B9 /* ColumnView.m */,
+				2F1FF93B1EB8350600DD85B9 /* ColumnCell.h */,
+				2F1FF93C1EB8350600DD85B9 /* ColumnCell.m */,
 				2F1FF90B1EB8297400DD85B9 /* Main.storyboard */,
 				2F1FF90E1EB8297400DD85B9 /* Assets.xcassets */,
 				2F1FF9101EB8297400DD85B9 /* LaunchScreen.storyboard */,
@@ -277,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F1FF90A1EB8297400DD85B9 /* ViewController.m in Sources */,
+				2F1FF93D1EB8350600DD85B9 /* ColumnCell.m in Sources */,
 				2F1FF9071EB8297400DD85B9 /* AppDelegate.m in Sources */,
+				2F1FF93A1EB8305E00DD85B9 /* ColumnView.m in Sources */,
 				2F1FF9041EB8297400DD85B9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

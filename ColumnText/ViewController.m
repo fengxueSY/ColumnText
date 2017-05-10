@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ColumnView.h"
 
 @interface ViewController ()
 
@@ -16,10 +17,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSArray * array = @[@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8",@"1",@"2",@"3",@"4",@"5",@"6",@"7",@"8"];
+    
+    ColumnView * columnView = [[ColumnView alloc]initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 300) ShowDataArray:array];
+    [self.view addSubview:columnView];
 }
-
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
